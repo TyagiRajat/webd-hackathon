@@ -1,0 +1,267 @@
+        .aaa{
+            position: fixed;
+            top: 0;
+            z-index: 1;
+            width: 100%;
+            
+        }
+        body {
+            margin: 100px 0px;
+            font-family: Arial, sans-serif;
+            background-image: url(".h1.1.jpg"); 
+            background-size: cover; 
+            background-repeat: no-repeat;
+        }
+        nav {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            background-color: #f2f2f2;
+            padding: 10px 0;
+        }
+        nav div {
+            margin: 5px;
+        }
+        nav div:nth-child(2) {
+            flex-grow: 1;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            margin: 0 10px;
+            color: #333;
+        }
+        nav a:hover {
+            color: #555;
+            text-decoration: underline;
+        }
+        nav button {
+            padding: 8px 16px;
+            border: none;
+            background-color: red;
+            color:white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border-radius: 19px;
+        }
+        nav button:hover {
+            background-color: rgba(255, 0, 0, 0.664);
+        }
+        .a1{
+            padding: 8px 16px;
+            border: none;
+            background-color: red;
+            color:white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border-radius: 19px;
+        }
+        .a2{
+            padding: 8px 16px;
+            border: none;
+            background-color: #ffa500;
+            color:black;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border-radius: 19px;
+        }
+        .containabc{
+            padding: 8px 16px;
+            border: none;
+            background-color: red;
+            color:black;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border-radius: 19px;
+        }
+        
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0;
+            background-color: #ffa500;
+        }
+        .left-half,
+        .right-half {
+            padding: 50px;
+            flex: 1;
+    
+        }
+        .left-half {
+            padding-right: 20px;
+        }
+        .one h1,
+        .one p,
+        .one button {
+            margin-bottom: 10px;
+        }
+        header img {
+            max-width: 100%;
+            height: auto;
+            max-height: 300px;
+        }
+
+        
+        .top-container,
+        .bottom-container {
+            background-color: white;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        
+        .bottom-container .three {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .bottom-container .three .left-half,
+        .bottom-container .three .right-half {
+            flex: 1;
+            padding: 10px;
+        }
+
+        .bottom-container .three img {
+            max-width: 100%;
+            height: auto;
+            max-height: 300px;
+        }
+
+        /*.bottom-container .three .left-half img{
+            height: 900px;
+        }
+
+        .bottom-container .three .right-half img{
+            height: 500px;
+        }*/
+        
+        
+        .contain {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            background-color: #ffa500;
+          }
+      
+          .box {
+            background-color: white;
+            color: black;
+            padding: 20px;
+            margin: 10px;
+            height: 300px;
+            width: 200px;
+          }
+        .fourth{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+            background-color: grey;
+        }
+        .b{
+            background-color: transparent;
+            color: whitesmoke;
+            padding: 20px;
+            margin: 10px;
+            height: 100px;
+            width: 200px;
+            
+        }
+        
+        .fife{
+            background-color: whitesmoke;
+        }
+        .sixth{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 50px;
+            
+        }
+
+        .on {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 1000px; 
+            margin: 50px 100px;
+          
+           
+        }
+    
+        
+        .on img {
+          width: 250px; 
+          height: auto;
+        }
+        .tw{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 1000px; 
+            margin: 50px 100px;
+        }
+        .tw img{
+            width: 250px; 
+          height: auto;
+        }
+        html{
+            scroll-behavior: smooth;
+            scroll-padding-top: 100px;
+        }
+        .chefs {
+            background-color: #ffa500; 
+            padding: 50px;
+            text-align: center;
+        }
+
+        .chefs h3 {
+            font-size: 24px;
+            background-color: #ffa500;
+            color: #333;
+        }
+
+        .chefs h1 {
+            font-size: 36px;
+            background-color: #ffa500;
+            color: #555;
+        }
+        .chefsonee{
+            background-color: #ffa500;
+            width: 100%;
+        }
+        .chefstwo {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #ffa500;
+        }
+
+        
+
+        .chef img {
+            width: 400px;
+            height: 400px;
+            background-color: #ffa500;
+            
+        }
+
+        .chef h4 {
+            font-size: 20px;  
+            background-color: #ffa500;
+        }
+
+        .chef p {
+            font-style: italic;
+            color: black;
+            background-color: #ffa500;
+        }
+        .chefs{
+            background-color: #ffa500;
+        }
